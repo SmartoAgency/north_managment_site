@@ -1,0 +1,28 @@
+extends ../layout/main
+	
+block meta
+	title= '404'
+	meta(name='description', content='')
+block head
+		link(rel='stylesheet', href="./assets/styles/main.min.css")
+block scripts
+	script(src='./assets/scripts/vendors.bundle.js')
+	script(src='./assets/scripts/index.bundle.js')
+
+block content
+	.container.page404
+		img(src="./assets/images/404-bg.jpg" loading="lazy").page404__bg
+		.page404__content
+			p(class="text-style-1920-h-3 page404__title") УПС, ЩОСЬ ПІШЛО НЕ ТАК...
+			div(class="link-wrap")
+				a(class="button-30 button-30--blue" href="/")
+					span На головну
+				a(class="button-30 button-30--blue" href="/3d")
+					span Обрати квартиру
+
+block footer
+	include ../includes/footer.pug
+
+block header
+	include ../includes/header.pug
+

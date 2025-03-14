@@ -1,0 +1,212 @@
+
+extends ../layout/main
+block variable
+  -
+    var title_page = 'project'
+    var id_page = 'home'
+    var class_page = 'home '
+    var persons = [
+      {
+        img: './assets/images/person1.jpg',
+        name: 'Ricardo Dunin',
+        position: 'Ricardo Dunin, has over 35 years of experience in the US, the Caribbean, and Brazil. He is responsible for the development of three Ritz-Carlton Residences (Miami Beach, Singer Island, and Pompano Beach), the development and brand creation of Le Sereno Hotel in St. Barth, and the development of 12 hotels with Accor in Rio de Janeiro.',
+      }, 
+      {
+        img: './assets/images/person2.jpg',
+        name: 'Gilberto Garcia-Tuñon',
+        position: 'Gilberto’s 20 years of experience in hospitality operations span eight new hotel launches in the luxury sector and leadership roles at iconic properties including The Raleigh Miami Beach, One Bal Harbour Resort, Canyon Ranch Miami Beach, The Shore Club, and Mandarin Oriental Miami.  ',
+      },
+      {
+        img: './assets/images/person3.jpg',
+        name: 'Chris Rollins',
+        position: 'With a 25-year track record of leadership excellence in the hospitality industry, Christopher is known for driving operational excellence, enhancing guest experiences, and optimizing business growth. Christopher is an influential member of the Miami Dade International Trade Consortia, Miami Beach Chamber of Commerce Board, Greater Miami Convention and Visitors Bureau Board, Florida Restaurants & Lodging Association Board, and Greater Miami and the Beaches Hotel Association board.',
+      }
+    ];
+    var mobilePartners = [
+      './assets/images/mobile-partners/mariot.png',
+      './assets/images/mobile-partners/mariot-bonvoy.png',
+      './assets/images/mobile-partners/home-n-villas.png',
+      './assets/images/mobile-partners/hyatt.png',
+      './assets/images/mobile-partners/world-of-hyatt.png',
+
+    ]
+
+block meta
+  title= 'North managment'
+  meta(name='description', content='')
+block head
+    link(rel='stylesheet', href="./assets/styles/main.min.css")
+block scripts
+  script(defer src='./assets/scripts/vendors.bundle.js')
+  script(defer src='./assets/scripts/index.bundle.js')
+block content
+  .screen1.g-screen-with-paddings
+    .screen1__bg
+      <svg class="" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1781.406 1000.647">
+        <path id="Контур_153" data-name="Контур 153" d="M1017.73,378.638H1217.5V622.009H563.908V378.638H768.6L1017.73,622.009ZM0,1000.647H1781.406V0H0Z" fill="#f4f3ec"/>
+      </svg>
+    .screen1__content
+      a(href="/").screen1__logo
+          <svg xmlns="http://www.w3.org/2000/svg" width="182" height="40.516" viewBox="0 0 182 40.516">
+              <g transform="translate(-358.023)">
+                  <path d="M370.7.813V17.861L363.9.813h-5.881V18.2h2.952V1.156l6.8,17.048h5.881V.813Z" transform="translate(0 -0.539)"/>
+                  <g transform="translate(358.023)">
+                  <g transform="translate(0)">
+                      <path data-name="Контур 133" d="M412.31,8.97c0-5.4,3.478-8.97,8.49-8.97s8.489,3.569,8.489,8.97-3.478,8.97-8.489,8.97-8.49-3.57-8.49-8.97m13.913,0c0-3.913-2.173-6.568-5.423-6.568s-5.424,2.654-5.424,6.568,2.174,6.568,5.424,6.568,5.423-2.654,5.423-6.568" transform="translate(-393.981 0)"/>
+                      <path data-name="Контур 134" d="M481.214,18.205l-3.981-6.8h-3.685v6.8H470.6V.814h6.659c4.005,0,6.522,2.082,6.522,5.309a4.9,4.9,0,0,1-3.525,4.828l4.371,7.254ZM473.548,3.354V8.892h3.776c2.128,0,3.409-1.007,3.409-2.769s-1.281-2.769-3.409-2.769Z" transform="translate(-432.588 -0.539)"/>
+                      <path data-name="Контур 135" d="M527.84.813v2.54h-5.607V18.2h-2.952V3.353h-5.607V.813Z" transform="translate(-461.121 -0.539)"/>
+                      <path data-name="Контур 136" d="M572.62.813h2.952V18.2H572.62v-7.62h-8.238V18.2H561.43V.813h2.952v7.14h8.238Z" transform="translate(-492.753 -0.539)"/>
+                      <path data-name="Контур 137" d="M378.5,85.068h-2.952V68.02l-4.485,17.048H365.46L360.975,68.02V85.068h-2.952V67.677h5.835l4.417,17.071,4.394-17.071H378.5Z" transform="translate(-358.023 -44.827)"/>
+                      <path data-name="Контур 138" d="M438.619,85.068l-1.671-4.988h-8.124l-1.671,4.988h-3.112l6.019-17.392h5.652l6.019,17.392Zm-8.948-7.506h6.43l-3.2-9.52Z" transform="translate(-401.752 -44.826)"/>
+                      <path data-name="Контур 139" d="M494.437,67.677h2.952V85.068h-5.882l-6.8-17.048V85.068H481.76V67.677h5.881l6.8,17.048Z" transform="translate(-439.982 -44.827)"/>
+                      <path data-name="Контур 140" d="M547.953,85.068l-1.67-4.988h-8.124l-1.671,4.988h-3.112l6.019-17.392h5.653l6.018,17.392Zm-8.948-7.506h6.431l-3.2-9.52Z" transform="translate(-474.171 -44.826)"/>
+                      <path data-name="Контур 141" d="M594.15,74.942h8.833V84.53h-2.494V80.251A6.026,6.026,0,0,1,594.47,84.8c-4.371,0-8.032-3.478-8.032-8.97,0-5.4,3.478-8.97,8.4-8.97,4.142,0,6.934,2.1,7.895,5.7h-3.089a4.747,4.747,0,0,0-4.806-3.3c-3.227,0-5.332,2.654-5.332,6.568,0,3.936,2.152,6.568,5.446,6.568a4.755,4.755,0,0,0,5.1-5.011h-5.9Z" transform="translate(-509.317 -44.288)"/>
+                      <path data-name="Контур 142" d="M648.044,82.528h8.9v2.54H645.093V67.676H656.74v2.54h-8.7v4.646h8.535V77.4h-8.535Z" transform="translate(-548.168 -44.827)"/>
+                      <path data-name="Контур 143" d="M708.929,85.068h-2.952V68.02l-4.485,17.048h-5.607L691.4,68.02V85.068h-2.952V67.677h5.836L698.7,84.748l4.394-17.071h5.836Z" transform="translate(-576.885 -44.827)"/>
+                      <path data-name="Контур 144" d="M762.583,82.528h8.9v2.54H759.631V67.676h11.648v2.54h-8.7v4.646h8.536V77.4h-8.536Z" transform="translate(-624.035 -44.827)"/>
+                      <path data-name="Контур 145" d="M815.666,67.677h2.952V85.068h-5.881l-6.8-17.048V85.068h-2.952V67.677h5.881l6.8,17.048Z" transform="translate(-652.753 -44.827)"/>
+                      <path data-name="Контур 146" d="M869.279,67.677v2.54h-5.607V85.068H860.72V70.216h-5.606v-2.54Z" transform="translate(-687.28 -44.827)"/>
+                  </g>
+                  </g>
+              </g>
+          </svg>
+      .screen1__slogan Hospitality Reimagined
+      .screen1__text 
+        div Your Hassle-Free Solution to Managing Your Investment
+        div North Management creates a standard-setting new model of residential ownership.
+  .video-screen
+    .video-screen__video
+      video(muted playsinline autoplay loop)
+        source(src="./static/NORTH-Mgt-Video.mp4", type="video/mp4")
+  .home-about-us.g-screen-with-paddings 
+    .home-about-us__content
+      div.home-about-us__title.g-title About us
+      div.home-about-us__subtitle A trusted, professional property management solution.
+      div.home-about-us__text North Management serves as the comprehensive, dedicated management arm of the entire North Development portfolio. Working in close collaboration with its parent company, North Management builds, hires, and oversees top residential and hospitality teams to serve at each property.
+  .home-services.g-screen-with-paddings
+    .home-services__content
+      .home-services__title.g-title  Our services
+      .home-services__subtitle 
+        ul 
+          li Guest Screening & Leasing 
+          li Maintenance & Repairs Coordination 
+          li Housekeeping Coordination
+          li Financial Reporting
+          li Legal Compliance & Eviction Support
+          li Property Inspections & Quality Assurance
+  .home-missions.g-screen-with-paddings
+      .home-missions__content
+        .home-missions__title.g-title  Mission
+        .home-missions__subtitle To ensure that each residential experience is thoughtful, tasteful, and reflective of long-held experience, every detail by A+ luxury hospitality teams overseen by industry-leading GMs.
+  .leadership-screen.g-screen-with-paddings 
+    .leadership-screen__content
+      .leadership-screen__title.g-title Leadership team
+      .leadership-screen__text North Management redefines and evolves the way we live now, with a portfolio of luxury properties supported by a proprietary, AI-powered platform, hyper-personalized service, and hand-picked, top-tier hospitality teams—yielding relevant, enduring spaces in exceptional locations.
+      .leadership-screen__list
+        each val in persons
+          .leadership-screen__list-item
+            .leadership-screen__list-item-img-wrap
+              img(src=val.img).leadership-screen__list-item-img
+            .leadership-screen__list-item-title #{val.name}
+            .leadership-screen__list-item-text #{val.position}
+  .home-project.g-screen-with-paddings
+    .home-project__content
+      .home-project__img-wrap
+        .home-project__img.paralax-screen(data-scale="1.1" data-transform="100")
+          .paralax-screen-wrapper-scale
+            .paralax-screen-wrapper-transform
+              img(src="./assets/images/home-project.jpg", alt="", srcset="")
+      .home-project__text 
+        .home-project__title.g-title  Featured Project 
+        .home-project__title2 DOMUS BRICKELL PARK
+        .home-project__description  Short-Term Rentals  |  Residential
+        .home-project__paragraph Nestled in the heart of Miami’s most vibrant neighborhood, Domus Brickell Park offers fully furnished studio, one-, and two-bedroom residences tailored for your lifestyle. Enjoy the perfect blend of home comforts, premium hotel services, and an energetic, connected community, all in one place.
+        ul 
+          li 
+            b.text-uppercase Prime Location:
+            span &nbsp;Steps away from Brickell’s finest dining, shopping, and entertainment.
+          li 
+            b.text-uppercase Turnkey Residences:
+            span &nbsp;Fully furnished units designed with elegance and functionality in mind.
+          li 
+            b.text-uppercase Luxury Amenities:
+            span &nbsp;A rooftop pool, state-of-the-art fitness center, and co-working spaces.
+          li 
+            b.text-uppercase Rental Flexibility:
+            span &nbsp;Ideal for both short-term and long-term stays.
+          li 
+            b.text-uppercase Green Spaces:
+            span Tranquil parks, kids playground and lush landscaping just a few steps away.
+        a.home-project__link(href="http://google.com", target="_blank", rel="noopener noreferrer") Visit Website >
+  .home-technology.g-screen-with-paddings 
+    .home-technology__content
+      .home-technology__text
+        .home-technology__title.g-title  technology
+        .home-technology__title2.g-title  Domus Platform
+        .home-technology__subtitle AI-Powered Capabilities for Enhanced Efficiency and Guest Satisfaction
+        .home-technology__paragraph Domus FLATS Platform is a comprehensive solution designed to empower Domus FLATS owners and operators. Our platform integrates and optimizes the entire scope of hospitality management operations, ushering in a new era of hotel management technology.
+        img(src="./assets/images/eva-ai.png", alt="", srcset="")
+        ul 
+          li 
+            b.text-uppercase Handles your messages 24/7: 
+            span &nbsp;Round-the-clock guest support in multiple languages, ensuring seamless communication and allowing you to focus on your core business activities.
+          li 
+            b.text-uppercase Transforms Guest Sentiment into Personalized Experiences: 
+            span &nbsp;Tailors interactions based on guest feedback, delivering customized responses and experiences that enhance guest satisfaction and loyalty.
+          li 
+            b.text-uppercase Detects, opens, and schedules work orders 24/7: 
+            span &nbsp;Intelligently manages operations by detecting and scheduling housekeeping and maintenance tasks, ensuring efficient property management around the clock.
+      .home-technology__img-wrap
+        .home-technology__img
+          img(src="./assets/images/technology-image.png", alt="", srcset="")
+  .home-partners.g-screen-with-paddings
+    .home-partners__content
+      .home-partners__title2 Exposure to 100+ Channels
+      .home-partners__title.g-title  global reach
+      .home-partners__paragraph Domus FLATS’ strategic partnerships with prestigious brands like Hyatt and Marriott significantly enhance your property’s visibility and credibility. By aligning with these globally recognized hospitality leaders, your property is showcased to millions of discerning guests who trust and seek out the quality associated with these iconic brands.
+      .home-partners__img
+        img(src="./assets/images/partners-desktop.png", alt="", srcset="")
+      .home-partners__mobile-slider.swiper-container(data-mobile-partners-slider)
+        .swiper-wrapper
+          each val in mobilePartners
+            .swiper-slide
+              .home-partners__mobile-slider-slide
+                img(src=val, alt="", srcset="")
+        .swiper-scrollbar
+  .home-render
+    .home-render__wrapper.paralax-screen
+      .paralax-screen-wrapper-scale
+        .paralax-screen-wrapper-transform
+          img(src="./assets/images/render.jpg", alt="", srcset="")
+    .home-render__text  Artist’s Conceptual Rendering
+  .contact-screen.g-screen-with-paddings(id="contacts")
+    .contact-screen__content
+      .contact-screen__text
+        .contact-screen__title.g-title contact
+        .contact-screen__title2.text-uppercase Learn more
+      .form
+        form(data-contact-screen-form)
+          .input-group.input-group--large(data-field-input data-field-name data-status="field--inactive")
+            input(autocomplete="off" type="text", name="name" placeholder="First name")
+            .input-message(data-input-message)
+          .input-group
+            input(autocomplete="off" type="text", name="last_name" placeholder="Last name")
+          .input-group 
+            input(autocomplete="off" type="text", inputmode="email" name="email" placeholder="Email")
+          .input-group(data-field-input data-field-phone data-status="field--inactive")
+            input(autocomplete="off" inputmode="tel" type="tel", name="phone" placeholder="Phone number")
+            .input-message(data-input-message)
+          .input-group 
+            input(autocomplete="off" type="text"  name="city" placeholder="City")
+          .input-group 
+            input(autocomplete="off" type="text" name="hear_from" placeholder="How did you hear about us?")
+          .input-group 
+            input(autocomplete="off" type="text" name="message" placeholder="Message")
+          button(type="submit" data-btn-submit) 
+            span SUBMIT
+            span(data-btn-submit-text)
+block footer
+  include ../includes/footer.pug
+
+block header
+  include ../includes/header.pug
