@@ -28,14 +28,17 @@ ScrollTrigger.create({
 });
 
 gsap.timeline({
+    ease: 'none',
     scrollTrigger: {
         trigger: '.home-about-us',
+        start: '0% bottom',
         end: `${window.innerHeight} top`,
         scrub: 0.1,
     }
 })
 .to('.video-screen video', {
-    y: window.innerHeight
+    y: window.innerHeight,
+    ease: 'none'
 })
 
 

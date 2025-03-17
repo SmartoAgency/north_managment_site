@@ -19,6 +19,8 @@
         padding-right: 20px;
     }
     &__title {
+        font-size: 48px;
+        line-height: 140%;
         @include from(1025px){
             position: absolute;
             left: 50%;
@@ -35,6 +37,10 @@
     }
     .link-wrap {
         gap: 2px;
+        text-align: center;
+        .header__button {
+            margin: 0;
+        }
         @include from(1025px){
             position: absolute;
             left: 50%;
