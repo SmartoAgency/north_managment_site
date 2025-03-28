@@ -77,7 +77,7 @@ const forms = [
               rule: yup
                 .string()
                 .required(i18next.t('required'))
-                .min(17, i18next.t('field_too_short', { cnt: 17 - 5 })),
+                .min(14, i18next.t('field_too_short', { cnt: 17 - 8 })),
   
               defaultMessage: i18next.t('phone'),
               valid: false,

@@ -122,8 +122,8 @@ export default class SexyInput {
         /* eslint-enable */
         numericOnly: true,
         prefix: '+1',
-        blocks: [2, 4, 3, 2, 2],
-        delimiters: [' ', ' ', ' ', ''],
+        blocks: [2, 4, 3, 2, 2, 2, 2, 2, 2, 2],
+        delimiters: [' ', ' ', ' ', '', '', '', '', '', ''],
       });
       input.addEventListener('countrychange', () => {
         const currentCountry = input.intTelIput.getSelectedCountryData();
@@ -163,8 +163,8 @@ export default class SexyInput {
           delimiter: '-',
           prefix: `+${dialCode}`,
           /* В код страны добавляется символ + */
-          blocks: [dialCode.toString().length + 1, maskPartForUkraine, 3, 2, 2],
-          delimiters: [' ', ' ', ' ', ''],
+          blocks: [dialCode.toString().length + 1, maskPartForUkraine, 3, 2, 2, 2, 2, 2, 2, 2],
+          delimiters: [' ', ' ', ' ', '', '', '', '', '', ''],
         });
       });
     }
