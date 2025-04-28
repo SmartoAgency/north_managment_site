@@ -102,6 +102,11 @@
                 width: 182px;
             }
         }
+        @include to(400px){
+            svg {
+                width: 140px;
+            }
+        }
     }
     &__slogan {
         @include size(12);
