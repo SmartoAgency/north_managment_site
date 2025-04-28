@@ -15,7 +15,7 @@ export const eases = {
 
 export const langDetect = () => {
   const lang = document.documentElement.getAttribute('lang') || 'en';
-  if (lang === 'ua') return 'uk';
+  if (lang === 'ua') return 'en';
   return lang;
 };
 

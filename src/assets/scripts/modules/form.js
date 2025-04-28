@@ -5,7 +5,7 @@ import * as yup from 'yup';
 import FormMonster from '../../../pug/components/form/form';
 import SexyInput from '../../../pug/components/input/input';
 
-
+const lang = document.documentElement.getAttribute('lang');
 /*
  * form handlers start
  */
@@ -45,13 +45,13 @@ const forms = [
                 padding-right: 40px;
               ">
                 <div style="padding-left: 40px; padding-right: 40px; text-align: center; margin-bottom: 10px;"  class="text-uppercase text-style-1920-h-2">
-                  Message sent
+                  ${lang === 'es' ? 'Mensaje enviado' : 'Message sent'}
                 </div>
                 <div class="text-style-1920-body" style="text-align: center; margin-bottom: 40px; max-width:500px; margin-left: auto; margin-right: auto; " >
-                  Thank you for the appeal. Expect the call of our managers. We wish a good day and good mood =)
+                ${lang === 'es' ? 'Gracias por la apelación.Espere la llamada de nuestros gerentes.Deseamos un buen día y buen humor' :'Thank you for the appeal. Expect the call of our managers. We wish a good day and good mood =)'}
                 </div>
                 <button data-form-popup-close type="button" onclick="this.closest('[data-success]').remove()" class="button-30 button-30--success-popup">
-                  <span>Close</span>
+                  <span>${lang === 'es' ? 'Cerca':'Close'}</span>
                 </button>
               
               </div>

@@ -139,6 +139,40 @@ const lang = langDetect();
           connectionFailed: 'Server connection error',
         },
       },
+      es: {
+        // Тексты конкретного языка
+        translation: {
+          // Так называемый namespace по умолчанию
+          name: 'Nombre:*',
+          phone: 'Teléfono:*',
+          send: 'Enviar',
+          thank_title: "Gracias",
+          thank_description: "Gracias por contactarnos.Espere una llamada de nuestros gerentes.Te deseamos un día agradable y buen humor =)",
+          thank_back_to_choose: "Volver para elegir el apartamento",
+          thank_back_to_site: "Volver al sitio web",
+          agreement: "KVKK <a target='_blank' href='https://ramsturkiye.com.tr/{{lng}}/kvkk'>privacy terms</a> I read, I understand.*",
+          description: 'Correo electrónico',
+          sending: 'Lijada',
+          email: "E-mail",
+          field_too_short: 'El teléfono debe ser al menos {{cnt}} personajes',
+          field_too_long: 'El teléfono debe ser como máximo {{cnt}} personajes',
+          field_only_letter: 'El nombre debe contener solo letras',
+          field_more_letter: 'El nombre debe ser como máximo 30 letras',
+          only_number: 'Solo dígitos aquí',
+          required: 'Este campo es requeridod',
+          sendingSuccessTitle: 'Mensaje enviado',
+          sendingSuccessText: 'Espere las respuestas de nuestros gerentes',
+          sendingErrorText: 'Espere las respuestas de nuestros gerentes',
+          sendingErrorTitle: 'Se ha producido un error',
+          send_fail: 'El mensaje no se envió debido a un error de servidor desconocido. Código: [send_fail] ',
+          invalid_form:
+            'El mensaje no se envió por un error de servidor desconocido. Código: [invalid_form] ',
+          front_error: 'El mensaje no se envió por un error de servidor desconocido. Código: [front_error] ',
+          invalid_upload_file: 'Error de carga de archivo. Código: [invalid_upload_file] ',
+          invalid_recaptcha: 'Complete el Captcha e intente nuevamente.Código: [invalid_recaptcha] ',
+          connectionFailed: 'Error de conexión del servidor',
+        },
+      },
     },
   });
 })();
